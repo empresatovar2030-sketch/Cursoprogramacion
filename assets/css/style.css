@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-color: bisque; /*color de fondo*/ 
+}
+h1{
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+    
+    
+
+} 
+p{ 
+      font-size: 16px;
+      color: rgb(11,11,11);
+      font-family:'Times New Roman', Times, serif;
+      line-height: 1.5em;
+}
+
+.box{
+     width: 500px;
+     height: 500px;
+     background-color:  brown;
+     border: 5px dashed rgb(15, 43, 136);
+     padding-top: 50px;
+     padding-left: 50px; 
+     color:white; 
+     font-size: 27px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+ } 
+ h2{
+    font-size: 46px;
+    color: rgb (24,24,35);
+ }
+
+ /*nueva seccion*/
+ .servicios{
+      background-color: aquamarine;
+      color: black;
+      line-height: 1.5sem;
+      padding: 100px 35px 100px 35px;  
+      width: 100%;
+      display: flex;
+}
+.col{
+    width: 50%;
+} 
+.img{
+    width: 600px;
+    height: auto;
+    border: 3px solid white; 
+}
+.center{
+    text-align: left;
+}
+.left{
+    text-align: left;
+}
+ul{
+    list-style: square;
+}
+
+/*FORMULARIO*/
+.contacto{
+     width: 100%;
+     padding: 50px;
+     background: rgb(166,166,240);
+}
+label{
+     font-size: 20px;
+     color: rgb(35,35,35);
+     width: 100%;
+     padding-bottom: 10px;
+}
+
+select{
+ width: 100%;
+ border: 1px solid gray;
+ color: black;
+ padding-bottom: 20px;
+ border-radius: 5px;
+}
+
+
+input[type="text"],[type="password"],[type="date"]{
+     width: 100%;
+     border: 1 solid gray;
+     background-color:black;
+     color: white;
+     font-size: 20px;
+     padding-bottom: 10px ;
+    
+    } 
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px; 
+
+}
+
+
+
+
+
+
